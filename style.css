@@ -188,21 +188,28 @@ footer h1{
 }
 
 .foot {
-
 cursor: unset;
-
 }
 
 .lista {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .lista a {
     color: #6d597a;
 }
+
+
+
+
+
+
+
+
+
 
 
 
