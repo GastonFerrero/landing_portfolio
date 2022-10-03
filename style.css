@@ -72,6 +72,10 @@ main{
     width: 100%;
 }
 
+.logoprincipal {
+    border-radius: 10px;
+}
+
 #catalogo {    
     background: var(--background);
     margin-top: 30px;
@@ -118,12 +122,16 @@ footer {
     gap: 40px;
 }
 
-.footer-links {
+footer h1{
+    font-size: 25px;
+}
+
+/* .footer-links {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
-}
+} */
 
 #info {
     margin-top: 70px;
@@ -165,3 +173,37 @@ footer {
     font-weight: 500;
 
 }
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.caja h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.foot {
+
+cursor: unset;
+
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lista a {
+    color: #6d597a;
+}
+
+
+
+
